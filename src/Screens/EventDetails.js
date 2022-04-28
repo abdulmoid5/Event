@@ -22,6 +22,7 @@ const EventDetails = ({onPress}) => {
         }}
       />
       <Button
+        text="Details"
         onPress={() =>
           Linking.openURL('https://www.eventbrite.com/e/45263283700')
         }
